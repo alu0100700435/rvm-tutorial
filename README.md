@@ -49,13 +49,15 @@ ruby -v
 Como ejemplo solo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (*[Ruby Gems]*). La manera de instalar una gema es la siguiente:
 
 ```sh
-gem install [gemaainstlar]
+gem install [gemaainstalar]
 ```
 
 Sustituyendo [gemaainstalar] por bundler, twitter o sinatra.
 
 
-IMAGENES
+![instalacion de sinatra](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/2.png)
+![instalacion de twitter](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/3.png)
+![instalacion de bundeler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/4.png)
 
 ##### Comprobacion del funcionamiento de Bundlet
 
@@ -65,7 +67,7 @@ Para poder comprobar el funcionamiento se crea un *Gemfile* en un proyecto, y un
 bundle install
 ```
 
-IMAGENES
+![funcinamiento bundler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/5.png)
 
 *[Más información rvm]* 
 
