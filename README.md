@@ -44,7 +44,7 @@ También podemos saber la versión de ruby instalada y que se esta utilizando de
 ```sh
 ruby -v
 ```
-##### Instalacion de Gemas
+##### Instalación de Gemas
 
 Como ejemplo solo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (*[Ruby Gems]*). La manera de instalar una gema es la siguiente:
 
@@ -59,7 +59,7 @@ Sustituyendo [gemaainstalar] por bundler, twitter o sinatra.
 ![instalacion de twitter](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/3.png)
 ![instalacion de bundler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/4.png)
 
-##### Comprobacion del funcionamiento de Bundler
+##### Comprobación del funcionamiento de Bundler
 
 Para poder comprobar el funcionamiento se crea un *Gemfile* en un proyecto, y una vez creado, se hace los siguiente:
 
@@ -67,7 +67,7 @@ Para poder comprobar el funcionamiento se crea un *Gemfile* en un proyecto, y un
 bundle install
 ```
 
-![funcinamiento bundler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/5.png)
+![funcionamiento bundler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/5.png)
 
 *[Más información rvm]* 
 
