@@ -18,7 +18,6 @@ La instalación se llevará a cabo como un usuarios estandar, y para instarla de
 
 ```sh
 $ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby
-
 ```
 Como se puede ver en el siguiente ejemplo:
 
@@ -29,14 +28,12 @@ Una vez concluida la instalación, para cerciorarnos de que se ha instalado, hac
 
 ```sh
 rvm -v
-
 ```
 Esto nos mostrara la version instalada de rvm. 
 Para que siempre al iniciar se inicie rmv, escribimos lo siguiente:
 
 ```sh
 source $HOME/.rvm/scripts/rvm
-
 ```
 En mi caso en $HOME lo sustituí por */home/user*, y esto modificará el archivo *.profile*.
 
@@ -46,14 +43,13 @@ También podemos saber la versión de ruby instalada y que se esta utilizando de
 
 ```sh
 ruby -v
-
 ```
 ##### Instalacion de Gemas
 
 Como ejemplo solo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (*[Ruby Gems]*). La manera de instalar una gema es la siguiente:
+
 ```sh
 gem install [gemaainstlar]
-
 ```
 
 Sustituyendo [gemaainstalar] por bundler, twitter o sinatra.
