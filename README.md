@@ -21,7 +21,7 @@ $ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby
 ```
 Como se puede ver en el siguiente ejemplo:
 
-IMAGEN
+![Alt text] https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/1.png
 
 Una vez concluida la instalación, para cerciorarnos de que se ha instalado, hacemos lo siguiente en la linea de comandos:
 
