@@ -57,9 +57,9 @@ Sustituyendo [gemaainstalar] por bundler, twitter o sinatra.
 
 ![instalacion de sinatra](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/2.png)
 ![instalacion de twitter](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/3.png)
-![instalacion de bundeler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/4.png)
+![instalacion de bundler](https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/4.png)
 
-##### Comprobacion del funcionamiento de Bundlet
+##### Comprobacion del funcionamiento de Bundlee
 
 Para poder comprobar el funcionamiento se crea un *Gemfile* en un proyecto, y una vez creado, se hace los siguiente:
 
