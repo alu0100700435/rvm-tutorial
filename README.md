@@ -14,7 +14,7 @@ Y también veremos que es *Git* y como instalarlo.
 Instalación RVM
 ----
 
-La instalación se llevará a cabo como un usuarios estandar, y para instarla debemos escribir en la linea de comandos de la terminal, lo siguiente:
+La instalación se llevará a cabo como un usuarios estándar, y para instarla debemos escribir en la linea de comandos de la terminal, lo siguiente:
 
 ```sh
 $ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby
@@ -46,7 +46,7 @@ ruby -v
 ```
 ##### Instalación de Gemas
 
-Como ejemplo solo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (*[Ruby Gems]*). La manera de instalar una gema es la siguiente:
+Como ejemplo sólo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (*[Ruby Gems]*). La manera de instalar una gema es la siguiente:
 
 ```sh
 gem install [gemaainstalar]
@@ -82,7 +82,7 @@ Yo ya lo tengo instalado en mi ordenador, pero instarlo es muy fácil, sólo se 
 apt-get install git
 ```
 
-Una plataforma recomendada para usar este controlador de versiones es *[GitHub]*. Y si quieres aprender más sobre git consulta esta [guia Git].
+Una plataforma recomendada para usar este controlador de versiones es *[GitHub]*. Y si quieres aprender más sobre git consulta esta [guía Git].
 
 
 
@@ -90,4 +90,4 @@ Una plataforma recomendada para usar este controlador de versiones es *[GitHub]*
 [Más información rvm]:http://rvm.io/
 [Ruby Gems]:https://rubygems.org/
 [GitHub]:https://github.com/
-[guia git]:http://git-scm.com/book/es/Empezando
+[guía git]:http://git-scm.com/book/es/Empezando
