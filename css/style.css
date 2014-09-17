@@ -1,0 +1,48 @@
+.jumbotron{
+	background-image: url("/../img/ruby.jpg");
+	padding-top: 75px;
+}
+
+.my{
+	background-image: url("/img/ruby.jpg");
+}
+
+.myimg{
+
+	width: 650px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+#footer{
+	margin-top: 2%;
+	background-color: #F8F8F8;
+}
+
+.text-muted{
+	padding-top: 13px;
+	text-align: center;
+}
+
+a{
+	color: green;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+pre{
+
+	width: 100%;
+}
+
+.main{
+
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: greenyellow;
+}
