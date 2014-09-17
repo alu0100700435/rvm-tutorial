@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+   		<title>Tutorial:: Ruby y Git en Linux</title>
+
+   		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+	    <!-- Custom styles for this template -->
+	    <link href="css/jumbotron.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="·">alu0100700435</a>
+			</div>
+			
+			</div>
+    	</div>
+
+    	<div class="jumbotron">
+      		<div class="container">
+				<h1 id="ruby-y-git-en-linux-">Ruby y Git en Linux </h1>
+				<p>Tutorial - Sistemas y Tecnologías Web</p>
+			</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="row">
+		    	<p>
+					<em>Rvm (Ruby Version Manager)</em> nos permite instalar y gestionar varios intérpretes <em>ruby</em> y conjuntos de gemas (gemsets). Por ello en este tutorial vamos a ver como instalarlo en linux, y como instalar las siguientes gemas:
+				</p>
+				<ul>
+					<li><em>Bundler</em></li>
+					<li><em>Sinatra</em></li>
+					<li><em>Twitter</em></li>
+				</ul>
+
+				<p>
+					Y también veremos que es <em>Git</em> y como instalarlo.
+				</p>
+
+				<h2 id="instalaci-n-rvm"> Instalación RVM </h2>
+				<p>
+					La instalación se llevará a cabo como un usuarios estandar, y para instarla debemos escribir en la linea de comandos de la terminal, lo siguiente:
+				</p>
+				<pre><code class="lang-sh">$ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby</code></pre>
+
+				<p>
+					Como se puede ver en el siguiente ejemplo:
+				</p>
+				<p>
+					<img src="https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/1.png" alt="instalacion de rvm">
+				</p>
+				<p>
+					Una vez concluida la instalación, para cerciorarnos de que se ha instalado, hacemos lo siguiente en la linea de comandos:
+				</p>
+				<pre><code class="lang-sh">rvm -v</code></pre>
+				
+				<p>
+					Esto nos mostrara la version instalada de rvm. 
+					Para que siempre al iniciar se inicie rmv, escribimos lo siguiente:
+				</p>
+				<pre><code class="lang-sh">source $HOME/.rvm/scripts/rvm</code></pre>
+
+				<p>
+					En mi caso en $HOME lo sustituí por <em>/home/user</em>, y esto modificará el archivo <em>.profile</em>.
+				</p>
+				<p>También podemos saber la versión de ruby instalada y que se esta utilizando de la siguiente manera:</p>
+
+				<pre><code class="lang-sh">ruby -v</code></pre>
+
+				<h5 id="instalaci-n-de-gemas"> Instalación de Gemas </h5>
+				<p>
+					Como ejemplo solo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (<em><a href="https://rubygems.org/">Ruby Gems</a></em>). La manera de instalar una gema es la siguiente:
+				</p>
+				<pre><code class="lang-sh">gem install [gemaainstalar]</code></pre>
+				
+				<p>
+					Sustituyendo [gemaainstalar] por bundler, twitter o sinatra.
+				</p>
+				<p>
+					<img src="https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/2.png" alt="instalacion de sinatra">
+					<img src="https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/3.png" alt="instalacion de twitter">
+					<img src="https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/4.png" alt="instalacion de bundler">
+				</p>
+
+				<h5 id="comprobaci-n-del-funcionamiento-de-bundler"> Comprobación del funcionamiento de Bundler </h5>
+				<p>
+					Para poder comprobar el funcionamiento se crea un <em>Gemfile</em> en un proyecto, y una vez creado, se hace los siguiente:
+				</p>
+				<pre><code class="lang-sh">bundle install</code></pre>
+				<p>
+					<img src="https://github.com/alu0100700435/rvm-tutorial/blob/gh-pages/img/5.png" alt="funcionamiento bundler">
+				</p>
+				<p>
+					<em><a href="http://rvm.io/">Más información rvm</a></em> 
+				</p>
+
+				<h2 id="instalaci-n-git">Instalación Git</h2>
+				<p>
+					Git es una sistema de control de versiones, el cual registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Por ello resulta muy útil en la elaboración de proyectos de programación.
+				</p>
+				<p>
+					Yo ya lo tengo instalado en mi ordenador, pero instarlo es muy fácil, sólo se ha de hacer lo siguiente:
+				</p>
+				<pre><code class="lang-sh">apt-get install git</code></pre>
+
+				<p>
+					Una plataforma recomendada para usar este controlador de versiones es <em><a href="https://github.com/">GitHub</a></em>. Y si quieres aprender más sobre git consulta esta <a href="http://git-scm.com/book/es/Empezando">guia Git</a>.
+				</p>
+			</div> <!-- fin row-->
+		</div><!--fin container-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
